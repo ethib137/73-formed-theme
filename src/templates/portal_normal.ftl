@@ -91,6 +91,10 @@
 				</div>
 			</header>
 		</#if>
+		
+		<#if show_sample_content>
+			<#include "sample_content.ftl" />
+		</#if>
 
 		<section class="${portal_content_css_class} flex-fill" id="content">
 			<h2 class="sr-only" role="heading" aria-level="1">${the_title}</h2>
