@@ -19,4 +19,6 @@
 	use_sign_in_modal = getterUtil.getBoolean(themeDisplay.getThemeSetting("use-sign-in-modal"))
 
 	show_control_menu = getterUtil.getBoolean(sessionClicks.get(request, "SHOW_CONTROL_MENU", "true"))
+	
+	show_sample_content = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-sample-content"))
 />
